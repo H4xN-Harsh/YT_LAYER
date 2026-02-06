@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 
-app.use('/users',userRoutes)
+app.use('/users',userRoutes)  //register done
 
 
 
